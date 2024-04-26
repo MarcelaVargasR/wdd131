@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Marcela Vargas" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto&family=Roboto+Slab:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <script src="./scripts/getdates.js" defer></script>
+    <title>WDD 131 - Dynamic Web Fundamentals - Marcela Vargas</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title-header">
+        WDD 131: Dynamic Web Fundamentals - L. Marcela Vargas
+      </h1>
+      <nav class="navigation">
+        <a
+          href="https://www.linkedin.com/in/marcela-vargas-24a674152/"
+          title="linkedin"
+          >LinkenIn</a
+        >
+        <a href="https://byui.instructure.com/" title="ilearn">I-Learn</a>
+        <a
+          href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/24?lang=eng"
+          title="scripture"
+          >Scripture</a
+        >
+        <a href="#" title="project">Final Project</a>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="card-container">
+        <h1 class="card-container-title">About me</h1>
+        <div class="card">
+          <p class="card-content">
+            My name is Marcela Vargas, I was born in El Salvador, Central
+            America. I married since 9 years ago and I feel happier than ever.
+            Also, I have a pet name Titi, she is a golden retriver of 2 years,
+            she is a baby and I love her so much. I am currently studing a major
+            in software development at BYUI. I really enioy to learn new things
+            in programming, I like programming in html and css, this semester
+            going to have the oportunity to learn Javascript.
+          </p>
+          <img
+            class="card-image"
+            src="./images/105992671_10222460335446309_8044721359534334687_n.jpg"
+            alt="person"
+            height="100"
+            width="100"
+          />
+        </div>
+        <span class="divisor">San Salvador, El Salvador</span>
+        <div class="card card-inverse">
+          <p>
+            El Salvador is known for its beaches on the Pacific Ocean, surf
+            spots and mountainous landscape, and food such as pupusas. It has
+            several striking towns to visit the coffee or indigo plantations.
+            The capital, San Salvador, surrounded by the San Salvador volcano,
+            is a very interesting place to visit through museums or the national
+            theater.
+          </p>
+          <img
+            class="card-image"
+            src="images/Flag_of_El_Salvador.svg.webp"
+            alt="flag-of-El-Salvador"
+            height="100"
+            width="200"
+          />
+        </div>
+      </section>
+      <section class="card-container card-container-aside">
+        <h1 class="card-container-title">Web Dev Resources</h1>
+        <div class="card-container content">
+          <ul class="card-list">
+            <li>
+              <a href="https://www.w3schools.com/"
+                >https://www.w3schools.com/</a
+              >
+            </li>
+            <li>
+              <a href="https://developers.google.com/?hl=es-419"
+                >https://developers.google.com/?hl=es-419</a
+              >
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/es/"
+                >https://developer.mozilla.org/es/</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-card">
+        <span
+          >©
+          <span id="currentyear"></span>
+        </span>
+        <span>L. Marcela Vargas</span>
+        <span>El Salvador</span>
+      </div>
+      <div>
+        Last modification:
+        <span id="last-mod"></span>
+      </div>
+    </footer>
+  </body>
+</html>
