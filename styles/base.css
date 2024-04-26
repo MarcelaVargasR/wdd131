@@ -45,9 +45,8 @@ body {
   font-size: 20px;
 }
 
-a:hover {
-  transition: 0.5s;
-  border-bottom: 2px solid #aaff00;
+.navigation a:hover {
+  border-bottom: 1px solid #aaff00;
 }
 
 .main {
@@ -121,6 +120,16 @@ a:hover {
   align-items: center;
   font-size: 18px;
   justify-content: center;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.card-list a {
+  text-decoration: none;
 }
 
 .footer {
