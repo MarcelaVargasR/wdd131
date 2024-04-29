@@ -1,0 +1,10 @@
+@media screen and (max-width: 500px) {
+  .header-menu {
+    background-color: black;
+    color: white;
+  }
+
+  .main-header {
+    grid-template-columns: 1fr 1fr;
+  }
+}
