@@ -75,8 +75,20 @@ body {
   border-radius: 4px;
 }
 
+.figure-img-container {
+  overflow: hidden;
+  border-radius: 4px 4px 0 0;
+}
+
 .figure-img {
   width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: fill;
+  display: block;
+}
+
+.figure-img:hover {
+  transform: scale(1.1);
 }
 
 .figcaption {
