@@ -10,6 +10,7 @@ body {
   grid-template-rows: repeat(12, 1fr);
   grid-template-columns: repeat(4, 1fr);
   font-family: "Mulish", sans-serif;
+  background-color: whitesmoke;
 }
 
 /* HEADER */
@@ -44,6 +45,11 @@ body {
   text-decoration: none;
   padding: 20px;
   font-size: 20px;
+}
+
+.nav a:hover {
+  background-color: whitesmoke;
+  color: #4d1010;
 }
 
 .menu-icon {
