@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #32405e;
+  --secondary-color: #e8f1ff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +11,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
-  background-color: #32405e;
+  background-color: var(--primary-color);
 }
 
 /* HEADER */
@@ -40,7 +44,7 @@ body {
   width: 80%;
   margin-inline: auto;
   border-radius: 5px;
-  background-color: #e8f1ff;
+  background-color: var(--secondary-color);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.05);
   padding-block: 30px;
   margin-block: 20px;
@@ -104,8 +108,8 @@ table td {
   align-items: center;
   font-size: 18px;
   padding: 25px;
-  background-color: rgb(240, 248, 251);
-  color: #32405e;
+  background-color: #f0f8fb;
+  color: var(--primary-color);
   font-weight: bold;
 }
 
@@ -126,7 +130,7 @@ table td {
     left: 20px;
     margin: unset;
     padding-block: 10px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #ffffffb3;
   }
 
   .card.bottom {
@@ -139,7 +143,7 @@ table td {
   .card-title {
     padding-block: 20px;
     padding-inline: 10px;
-    background-color: #32405e;
+    background-color: var(--primary-color);
     color: white;
     font-weight: bold;
     margin-left: -10px;
