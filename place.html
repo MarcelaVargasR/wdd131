@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Marcela Vargas" />
+    <link rel="stylesheet" href="./styles/place.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+    <title>Rio de Janeiro</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title-header">Brazil</h1>
+    </header>
+
+    <main class="main">
+      <div class="hero">
+        <picture>
+          <source
+            media="(min-width:500px)"
+            srcset="./images/large-rio-de-janeiro.webp"
+          />
+          <img src="./images/small-rio.webp" class="hero-img" alt="Rio" />
+        </picture>
+      </div>
+
+      <div class="card">
+        <span class="card-title">Data</span>
+        <table>
+          <tr>
+            <th>Area:</th>
+            <td>486.5 sq mi</td>
+          </tr>
+          <tr>
+            <th>Population:</th>
+            <td>1.759 million</td>
+          </tr>
+          <tr>
+            <th>Capital:</th>
+            <td>Brazilia</td>
+          </tr>
+          <tr>
+            <th>Currency:</th>
+            <td>Brazilian Real</td>
+          </tr>
+          <tr>
+            <th>Language:</th>
+            <td>Portuguese</td>
+          </tr>
+          <tr>
+            <th>Time Zone:</th>
+            <td>UTC-03:00</td>
+          </tr>
+          <tr>
+            <th>Calling code:</th>
+            <td>+55</td>
+          </tr>
+          <tr>
+            <th>Internet TLD:</th>
+            <td>.br</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="weather" class="card bottom">
+        <span class="card-title card-title-with-icon">
+          <span style="display: flex; align-items: center"> Weather </span>
+        </span>
+        <table>
+          <tr>
+            <th>Temperature:</th>
+            <td>25 °C</td>
+          </tr>
+          <tr>
+            <th>Conditions:</th>
+            <td>Sunny</td>
+          </tr>
+          <tr>
+            <th>Wind:</th>
+            <td>10km/h</td>
+          </tr>
+          <tr>
+            <th>Wind Chill:</th>
+            <td id="windChill"></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-card">
+        <span
+          >©
+          <span id="currentyear"></span>
+        </span>
+        <span>L. Marcela Vargas</span>
+        <span>El Salvador</span>
+      </div>
+      <div>
+        Last modification:
+        <span id="last-mod"></span>
+      </div>
+    </footer>
+    <script src="./scripts/place.js" defer></script>
+  </body>
+</html>
