@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review page</title>
+  </head>
+  <body>
+    <h1>Form submitsion counter: <span id="form-submition-counter"></span></h1>
+    <script>
+      if (!localStorage.getItem("counter")) {
+        localStorage.setItem("counter", 1);
+      } else {
+        localStorage.setItem(
+          "counter",
+          parseInt(localStorage.getItem("counter")) + 1
+        );
+      }
+
+      const counter = localStorage.getItem("counter");
+
+      document.getElementById("form-submition-counter").innerHTML = counter;
+    </script>
+  </body>
+</html>
