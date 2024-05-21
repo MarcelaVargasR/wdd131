@@ -1,137 +1,136 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #e3ecee;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
- .header{
-    background-color: #3d6c48;
-    padding: 30px;
-    font-size: 24px;
-    font-weight: 800;
-    text-align: center;
-    color: white;
- }
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #e3ecee;
+}
 
- .main{
-    display: flex;
-    flex-direction: column;
- }
+.header {
+  background-color: #3d6c48;
+  padding: 30px;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+}
 
- .form{
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    justify-content: right;
-    padding: 30px;
- }
+.main {
+  display: flex;
+  flex-direction: column;
+}
 
- .productName-title{
-    font-size: 22px;
-    font-weight: 600;
-    text-align: left;
-    margin-bottom: 10px;
- }
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  padding: 30px;
+}
 
- .productChoose{
-    margin-bottom: 30px;
-    font-size: 18px;
-    padding: 15px;
- }
+.productName-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 10px;
+}
 
- /* OVERALL RATING*/
- .overall{
-    font-size: 22px;
-    font-weight: 600;
-    text-align: left;
-    margin-bottom: 10px;
- }
+.productChoose {
+  margin-bottom: 30px;
+  font-size: 18px;
+  padding: 15px;
+}
 
- .stars-field{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column-reverse;
-    flex-grow: 1;
-    gap: 5px;
- }
+/* OVERALL RATING*/
+.overall {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 10px;
+}
 
- .stars-container {
-	display: flex;
-    margin-bottom: 30px;
+.stars-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  gap: 5px;
+}
 
+.stars-container {
+  display: flex;
+  margin-bottom: 30px;
 }
 
 /* DATE */
-.date{
-    font-size: 22px;
-    font-weight: 600;
-    text-align: left;
-    margin-bottom: 10px;
+.date {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
-.date-container{
-    margin-bottom: 30px;
-    font-size: 18px;
-    padding: 15px;
+.date-container {
+  margin-bottom: 30px;
+  font-size: 18px;
+  padding: 15px;
 }
 
 /* FEATURES */
-.features-container{
-    border: none;
-    margin-bottom: 30px;
+.features-container {
+  border: none;
+  margin-bottom: 30px;
 }
 
-.features-title{
-    font-size: 22px;
-    font-weight: 600;
-    text-align: left;
-    margin-bottom: 5px;
+.features-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 5px;
 }
 
-.features-subtitle{
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
+.features-subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .checkbox-features {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.checkbox-label{
-    margin: 10px;
+.checkbox-label {
+  margin: 10px;
 }
 
-
-input[type=checkbox]{
-    width: 25px;
-    height: 25px;
-    transform: scale(1);
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  transform: scale(1);
 }
 
 /* WITTEN REVIEW */
-.written-title{
-    font-size: 22px;
-    font-weight: 600;
-    text-align: left;
-    margin-bottom: 10px;
+.written-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
-.written-title .optional{
-    color: rgb(1, 1, 195);
-    font-size: 16px;
+.written-title .optional {
+  color: rgb(1, 1, 195);
+  font-size: 16px;
 }
 
-.written-container{
+.written-container {
   padding: 50px;
   max-width: 100%;
   line-height: 1.5;
@@ -142,19 +141,19 @@ input[type=checkbox]{
 }
 
 /* USERNAME */
-.username{
-    font-size: 22px;
-    font-weight: 600;
-    text-align: left;
-    margin-bottom: 10px;
+.username {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
-.username .optional{
-    color: rgb(1, 1, 195);
-    font-size: 16px;
+.username .optional {
+  color: rgb(1, 1, 195);
+  font-size: 16px;
 }
 
-.username-text{
+.username-text {
   padding: 15px;
   max-width: 100%;
   line-height: 1.5;
@@ -166,42 +165,44 @@ input[type=checkbox]{
 
 /* BUTTON */
 
-.button{
-    padding: 15px;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 10px;
+.button {
+  padding: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #b7c6bb;
+  border: 1px solid #3d6c48;
 }
 
 /* FOOTER */
 
 .footer {
-    flex-grow: 1;
-    grid-column: 1/5;
-    grid-row: 11/12;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    padding: 20px;
-    background-color:#3d6c48;
-    color: white;
+  flex-grow: 1;
+  grid-column: 1/5;
+  grid-row: 11/12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 20px;
+  background-color: #3d6c48;
+  color: white;
+}
+
+.footer-card {
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #e4ede6;
   }
-  
-  .footer-card {
-    display: flex;
-    gap: 10px;
-  }
-  
-  @media screen and (min-width: 768px) {
-    .main{
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        box-shadow: 1px 1px 1px #999;
-        max-width: 800px;
-        margin: 20px auto;
-        background-color: #e4ede6;
-    }
-  }
+}
