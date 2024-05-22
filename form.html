@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Review Form</title>
-    <link rel="stylesheet" href="styles/form.css" />
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals" />
-    <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <meta name="author" content="Marcela Vargas" />
+    <link rel="stylesheet" href="styles/form.css">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Marcela Vargas">
   </head>
   <body>
     <header class="header">
@@ -16,7 +16,7 @@
     <main class="main">
       <form class="form" action="review.html" method="get">
         <!-- PRODUCT NAME -->
-        <label class="productName-title" for="product">Product Name</label>
+        <label class="productName-title" for="productName">Product Name</label>
         <select
           class="productChoose"
           name="productName"
@@ -27,40 +27,40 @@
         </select>
 
         <!-- OVERALL RATING -->
-        <label class="overall" for="rating">Overall Rating</label>
+        <label class="overall">Overall Rating</label>
         <div class="stars-container">
           <div class="stars-field">
-            <input type="radio" id="star1" name="rating" value="1" checked />
+            <input type="radio" id="star1" name="rating" value="1" checked>
             <div class="starts">
               <label for="star1">☆</label>
             </div>
           </div>
           <div class="stars-field">
-            <input type="radio" id="star2" name="rating" value="2" />
+            <input type="radio" id="star2" name="rating" value="2">
             <div class="starts">
               <label for="star1">☆</label>
               <label for="star1">☆</label>
             </div>
           </div>
           <div class="stars-field">
-            <input type="radio" id="star3" name="rating" value="3" />
+            <input type="radio" id="star3" name="rating" value="3">
             <div class="starts">
-              <label for="star1">☆</label>
-              <label for="star1">☆</label>
-              <label for="star1">☆</label>
-            </div>
-          </div>
-          <div class="stars-field">
-            <input type="radio" id="star4" name="rating" value="4" />
-            <div class="starts">
-              <label for="star1">☆</label>
               <label for="star1">☆</label>
               <label for="star1">☆</label>
               <label for="star1">☆</label>
             </div>
           </div>
           <div class="stars-field">
-            <input type="radio" id="star5" name="rating" value="5" />
+            <input type="radio" id="star4" name="rating" value="4">
+            <div class="starts">
+              <label for="star1">☆</label>
+              <label for="star1">☆</label>
+              <label for="star1">☆</label>
+              <label for="star1">☆</label>
+            </div>
+          </div>
+          <div class="stars-field">
+            <input type="radio" id="star5" name="rating" value="5">
             <div class="starts">
               <label for="star1">☆</label>
               <label for="star1">☆</label>
@@ -72,14 +72,14 @@
         </div>
 
         <!-- DATE -->
-        <label class="date" for="installationDate">Date of installation</label>
+        <label class="date" for="date">Date of installation</label>
         <input
           class="date-container"
           type="date"
           name="dateTime"
           id="date"
           required
-        />
+        >
 
         <!-- FEATURES -->
         <fieldset class="features-container">
@@ -93,11 +93,11 @@
               id="durability"
               name="durability"
               value="durability"
-            />
+            >
             <label class="checkbox-label" for="durability">Durability</label>
           </div>
           <div class="checkbox-features">
-            <input type="checkbox" id="easy" name="easy" value="easy" />
+            <input type="checkbox" id="easy" name="easy" value="easy">
             <label class="checkbox-label" for="easy">Easy to Use</label>
           </div>
           <div class="checkbox-features">
@@ -106,29 +106,25 @@
               id="performance"
               name="performance"
               value="performance"
-            />
+            >
             <label class="checkbox-label" for="performance">Performance</label>
           </div>
           <div class="checkbox-features">
-            <input type="checkbox" id="design" name="design" value="design" />
+            <input type="checkbox" id="design" name="design" value="design">
             <label class="checkbox-label" for="design">Design</label>
           </div>
         </fieldset>
 
         <!-- WRITTEN REVIEW -->
-        <label class="written-title" for="writtenReview"
-          >Written Review <span class="optional">(Optional)</span></label
-        >
+        <label class="written-title">Written Review <span class="optional">(Optional)</span></label>
         <textarea class="written-container" name="text" id="text"></textarea>
 
         <!-- USERNAME -->
-        <label class="username" for="userName"
-          >Your Name <span class="optional">(Optional)</span></label
-        >
-        <input class="username-text" type="text" id="name" name="name" />
+        <label class="username">Your Name <span class="optional">(Optional)</span></label>
+        <input class="username-text" type="text" id="name" name="name">
 
         <!-- FORMBUTTON -->
-        <input class="button" type="submit" value="Post Review" />
+        <input class="button" type="submit" value="Post Review">
       </form>
     </main>
     <footer class="footer">
