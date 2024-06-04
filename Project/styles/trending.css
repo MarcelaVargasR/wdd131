@@ -330,6 +330,7 @@ body {
 .fq-container {
   display: flex;
   flex-direction: column;
+  margin-inline: 20px;
 }
 
 .fq-title {
@@ -360,6 +361,10 @@ body {
 .fq-boxcards {
   display: flex;
   flex-direction: column;
+}
+
+.hidden {
+  display: none;
 }
 
 .fq-query {
@@ -540,6 +545,37 @@ a:hover {
     flex-direction: row;
     margin-top: 50px;
     gap: 8rem;
+  }
+
+  .fq-item {
+    width: 800px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+  }
+
+  .fq-query {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .fq-query img {
+    margin-left: 10px;
+  }
+
+  .query-info {
+    padding: 10px 0;
+    display: none;
+  }
+
+  .query-info:not(.hidden) {
+    display: block;
+  }
+
+  .query-info.hidden {
+    display: none;
   }
 
   /* FOOTER */
