@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project Bloggie</title>
+    <link rel="stylesheet" href="./styles/bloggie.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+      crossorigin="anonymous"
+    />
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Marcela Vargas" />
+    <script src="./scripts/bloggie.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-nav">
+        <div class="logo">
+          <img src="images/logo-new-2.webp" alt="logo" />
+        </div>
+        <h2 id="menu-btn" class="heading">
+          <i id="menu-icon" class="bi bi-list"></i>
+        </h2>
+        <nav id="nav" class="nav">
+          <a class="nav-item" href="./bloggie.html">Home</a>
+          <a class="nav-item" href="./trending.html">Trending News</a>
+          <!-- local storage -->
+          <a class="nav-item" href="./about.html">About Us</a>
+          <a class="nav-item" href="./contact.html">Contact Us</a>
+        </nav>
+        <!-- aparece en la pantalla large -->
+        <!-- <button class="btn" type="button">Subcribe</button> -->
+      </div>
+      <div class="hero">
+        <div class="hero-content">
+          <h2 class="hero-title">Discover Your Next Movie Adventure!</h2>
+          <p class="hero-prgf">
+            Explore our reviews and discover your next favorite movies with our
+            detailed and passionate recommendations.
+          </p>
+          <a class="btn-hero" href="./trending.html">
+            <button type="button" class="btn">Read More</button>
+          </a>
+        </div>
+        <picture class="hero-image">
+          <source media="(min-width:501px)" srcset="images/small-view.webp" />
+          <img src="./images/sonic-wallpaper.webp" alt="Movies" />
+        </picture>
+      </div>
+    </header>
+    <main class="main">
+      <section class="discover-section">
+        <div class="discover-container">
+          <p class="discover-subtitle">Discover</p>
+          <h3 class="discover-title">
+            Lastest Movie Reviews and Entertainment News
+          </h3>
+          <p class="discover-description accent">
+            Stay up-to-date with the lastest movie reviews and entertainment
+            news. Read our expert opinions and recommendations before you hit
+            the theaters.
+          </p>
+          <span class="discover-span">Features Reviews</span>
+          <p class="discover-description">
+            Get insights into the most talked-about movies and discover hidden
+            gems.
+          </p>
+          <span class="discover-span">Top Picks</span>
+          <p class="discover-description">
+            Explore our curated list of must-watch movies across various genres.
+          </p>
+          <a href="./trending.html">
+            <button type="button" class="btn-discover">Read More</button>
+          </a>
+        </div>
+        <figure class="discover-image-container">
+          <img
+            src="images/nemo-movie.webp"
+            alt="aquaman-movie"
+            class="discover-image"
+          />
+          <img
+            class="tangle-movie"
+            src="images/tangled.webp"
+            alt="tangled-movie"
+          />
+        </figure>
+      </section>
+      <!-- CARD-SECTION -->
+      <section class="movie-card-section">
+        <div class="card-header-info">
+          <span class="tag-info">Latest</span>
+          <h2 class="card-title">Discover the Best Movies</h2>
+          <p class="card-info">
+            Stay updated with the lastest movie reviews and news
+          </p>
+        </div>
+        <div class="card-container">
+          <div class="movie-card">
+            <figure class="card-image-container">
+              <img
+                src="images/furiosa.webp"
+                alt="furiosa-movie"
+                class="card-image"
+                width="400"
+                height="500"
+              />
+            </figure>
+            <span class="card-tag">Action</span>
+            <p class="card-title">
+              ”Furiosa” is an intense and spectacular cinematic experience
+            </p>
+            <p class="card-description">
+              A prequel that promises a good dose of action and a great show,
+              This Warner Brothers blockbuster directed by filmmaker George
+              Miller hits local theaters this Thursday, May 23
+            </p>
+            <a class="card-btn-a" href="./trending.html">
+              <button type="button" class="card-btn">
+                Read More
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="arrow-icon"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="none"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </a>
+          </div>
+          <div class="movie-card">
+            <figure class="card-image-container">
+              <img
+                src="images/kingdom-of=the=planet.webp"
+                alt="kingdom-planet-movie"
+                class="card-image"
+                width="400"
+                height="500"
+              />
+            </figure>
+            <span class="card-tag">Action</span>
+            <p class="card-title">
+              Planet of the Apes: New Kingdom - A great gateway to a historic
+              franchise
+            </p>
+            <p class="card-description">
+              It is difficult to maintain a franchise that is more than 50 years
+              old. The Planet of the Apes does it in a great way and New Kingdom
+              is a good entry point for those who have not gotten into it yet
+            </p>
+            <a class="card-btn-a" href="./trending.html">
+              <button type="button" class="card-btn">
+                Read More
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="arrow-icon"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="none"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- REVIEW SECTION -->
+      <section class="testimonial-section">
+        <div class="testimonial">
+          <div class="rating">★★★★★</div>
+          <p class="testimonial-text">
+            I absolutely love the movie reviews on Bloggie! They are insightful
+            and help me decide which movies to watch.
+          </p>
+          <div class="author-info">
+            <img
+              src="images/author-review.webp"
+              alt="John Doe"
+              class="author-image"
+              width="300"
+              height="200"
+            />
+            <div class="author-detail">
+              <p class="name">John Doe</p>
+              <p class="title">Movie Enthusiast</p>
+            </div>
+            <img
+              src="images/logo-new-2.webp"
+              alt="Webflow"
+              class="logo-author"
+            />
+          </div>
+        </div>
+        <div class="newletter-section">
+          <div class="new-container">
+            <h2 class="newletter-title">Get the Lastest Movie Reviews</h2>
+            <p class="newletter-description">
+              Subscribe to our newsletter for updates on new reviews and blog
+              posts.
+            </p>
+            <div class="button">
+              <a class="btn-news-a" href="./contact.html">
+                <button class="btn-news" type="button">Subscribe</button>
+              </a>
+              <a class="btn-news-a" href="./trending.html">
+                <button class="btn-news" type="button">Learn More</button>
+              </a>
+            </div>
+          </div>
+          <figure class="news-image">
+            <img
+              src="images/wally-wallpaper.webp"
+              alt="lastest-movie"
+              class="newsletter-image"
+              width="450"
+              height="300"
+            />
+          </figure>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <figure class="footer-logo">
+        <img
+          src="images/logo-white.JPG"
+          alt="logo"
+          class="logo"
+          width="150"
+          height="150"
+        />
+      </figure>
+      <div class="footer-fnew">
+        <div class="footer-sub">
+          <p class="footer-sub-description">
+            Join our newsletter to receive updates on the lastest features and
+            releases
+          </p>
+          <div class="btns-fs">
+            <form class="sub-form">
+              <input
+                type="text"
+                class="newsletter-input"
+                id="fname"
+                name="fname"
+                value="Enter your email"
+              /><br />
+            </form>
+            <a class="btn-a" href="./contact.html">
+              <button class="btn-footer" type="button">Subscribe</button>
+            </a>
+          </div>
+          <p class="privacy-info">
+            By subscribing you agree to our privacy policy and consent to
+            receive updates from our company.
+          </p>
+        </div>
+        <div class="socialmedia-section">
+          <p class="follow-us">Follow Us</p>
+          <ul class="social-media-links">
+            <li class="icon-content">
+              <a href="#">
+                <img
+                  src="images/facebook-icon.png"
+                  alt="facebook-icon"
+                  class="icon"
+                />
+                Facebook
+              </a>
+            </li>
+            <li class="icon-content">
+              <a href="#">
+                <img
+                  src="images/instagram-icon.png"
+                  alt="inatgram-icon"
+                  class="icon"
+                />
+                Instagram</a
+              >
+            </li>
+            <li class="icon-content">
+              <a href="#"
+                ><img
+                  src="images/youtube-icon.png"
+                  alt="youtube-icon"
+                  class="icon"
+                />
+                Youtube</a
+              >
+            </li>
+            <li class="icon-content">
+              <a href="#">
+                <img
+                  src="images/pinterest-icon.png"
+                  alt="pinterest-icon"
+                  class="icon"
+                />
+                Pinterest</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright-section">
+        <p class="copyright">© 2024 Bloggie. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

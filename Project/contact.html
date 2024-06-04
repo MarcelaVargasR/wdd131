@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project Trending News</title>
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+      crossorigin="anonymous"
+    />
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Marcela Vargas" />
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+      async
+      defer
+    ></script>
+    <script src="./scripts/contact.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-nav">
+        <div class="logo">
+          <img src="images/logo-new-2.webp" alt="logo" />
+        </div>
+        <h2 id="menu-btn" class="heading">
+          <i id="menu-icon" class="bi bi-list"></i>
+        </h2>
+        <nav id="nav" class="nav">
+          <a class="nav-item" href="./bloggie.html">Home</a>
+          <a class="nav-item" href="./trending.html">Trending News</a>
+          <!-- local storage -->
+          <a class="nav-item" href="./about.html">About Us</a>
+          <a class="nav-item" href="./contact.html">Contact Us</a>
+        </nav>
+        <!-- aparece en la pantalla large -->
+        <!-- <button class="btn" type="button">Subcribe</button> -->
+      </div>
+      <!-- NAV INTRO -->
+      <div class="hero">
+        <div class="hero-content">
+          <h2 class="uhero-title">
+            Get in touch with our creator-friendly support team!
+          </h2>
+          <p class="uhero-info">
+            Our business hours are 9:00 AM - 6:00 PM MT Monday to Friday.
+          </p>
+        </div>
+        <img
+          class="hero-img"
+          src="./images/background-contact.webp"
+          alt="background"
+          width="600"
+          height="300"
+        />
+      </div>
+    </header>
+    <main>
+      <section>
+        <!-- FORM -->
+        <div class="form-content">
+          <div class="box-form">
+            <div class="form-img-container">
+              <img
+                src="./images/form-img (1).webp"
+                class="form-img"
+                alt="form-img"
+                width="600"
+                height="400"
+              />
+            </div>
+            <form class="form" method="get">
+              <div class="form-info">
+                <h2>Get in touch!</h2>
+                <p>Have a question or feedback? We'd love to hear from you.</p>
+              </div>
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <button class="form-btn" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+        <!-- CONTACT US -->
+        <div class="contactUs-container">
+          <div class="contactUs-header">
+            <h3 class="contactus-title">Contact Us</h3>
+            <p class="contactus-titleinfo">
+              We'd love to hear from you! Please feel free to get in touch. We
+              want to hear your thoughts and answer any questions you may have!
+            </p>
+          </div>
+        </div>
+        <div class="contactUs-cards">
+          <div class="cards">
+            <div class="contactus-info">
+              <img
+                class="card-image"
+                src="./images/email.png"
+                alt="email-icon"
+                height="50"
+                width="50"
+              />
+              <span class="card-title-contactus">Email</span>
+              <p class="card-description-contactus">
+                Don't forget to email us for the latest reviews or share your
+                thoughts.
+              </p>
+              <p class="card-info-contactus">hellobloggie.com</p>
+            </div>
+            <div class="contactus-info">
+              <img
+                class="card-image"
+                src="./images/telephone.png"
+                alt="phone-icon"
+                height="40"
+                width="40"
+              />
+              <span class="card-title-contactus">Phone</span>
+              <p class="card-description-contactus">
+                Call us anytime for assistance or to share your movie review.
+              </p>
+              <p class="card-info-contactus">(123) 456-7890</p>
+            </div>
+            <div class="contactus-info">
+              <img
+                class="card-image"
+                src="./images/location.png"
+                alt="location-icon"
+                height="50"
+                width="50"
+              />
+              <span class="card-title-contactus">Address</span>
+              <p class="card-description-contactus">
+                Visit us to discuss movies in person or drop off your review.
+              </p>
+              <p class="card-info-contactus">
+                123 Movie bloggie, Film City, CA 90210.
+              </p>
+            </div>
+          </div>
+          <img
+            class="img-contact"
+            src="./images/location-hero.webp"
+            alt="location-img"
+            width="400"
+            height="300"
+          />
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <figure class="footer-logo">
+        <img
+          src="images/logo-white.JPG"
+          alt="logo"
+          class="logo"
+          width="150"
+          height="150"
+        />
+      </figure>
+      <div class="footer-fnew">
+        <div class="footer-sub">
+          <p class="footer-sub-description">
+            Join our newsletter to receive updates on the lastest features and
+            releases
+          </p>
+          <div class="btns-fs">
+            <form class="sub-form">
+              <input
+                type="text"
+                class="newsletter-input"
+                id="fname"
+                name="fname"
+                value="Enter your email"
+              /><br />
+            </form>
+            <button class="btn-footer" type="button">Subscribe</button>
+          </div>
+          <p class="privacy-info">
+            By subscribing you agree to our privacy policy and consent to
+            receive updates from our company.
+          </p>
+        </div>
+        <div class="socialmedia-section">
+          <p class="follow-us">Follow Us</p>
+          <ul class="social-media-links">
+            <li class="icon-content">
+              <a href="#">
+                <img
+                  src="images/facebook-icon.png"
+                  alt="facebook-icon"
+                  class="icon"
+                />
+                Facebook
+              </a>
+            </li>
+            <li class="icon-content">
+              <a href="#">
+                <img
+                  src="images/instagram-icon.png"
+                  alt="inatgram-icon"
+                  class="icon"
+                />
+                Instagram</a
+              >
+            </li>
+            <li class="icon-content">
+              <a href="#"
+                ><img
+                  src="images/youtube-icon.png"
+                  alt="youtube-icon"
+                  class="icon"
+                />
+                Youtube</a
+              >
+            </li>
+            <li class="icon-content">
+              <a href="#">
+                <img
+                  src="images/pinterest-icon.png"
+                  alt="pinterest-icon"
+                  class="icon"
+                />
+                Pinterest</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright-section">
+        <p class="copyright">© 2024 Bloggie. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
