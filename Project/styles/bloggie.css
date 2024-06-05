@@ -35,7 +35,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-inline: 30px;
-  border: 2px solid black;
 }
 
 .logo {
@@ -594,6 +593,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     gap: 3rem;
+    height: 100%;
   }
 
   .movie-card {
@@ -603,7 +603,10 @@ a:hover {
   }
 
   .card-image {
+    height: 700px;
     max-height: 100%;
+    width: 499px;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
