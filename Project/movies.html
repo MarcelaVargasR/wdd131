@@ -19,28 +19,29 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-nav">
-        <div class="logo">
-          <img src="images/logo-new-2.webp" alt="logo" />
+      <div>
+        <div class="header-nav">
+          <div class="logo">
+            <img src="images/logo-new-2.webp" alt="logo" />
+          </div>
+          <h2 id="menu-btn" class="heading">
+            <i id="menu-icon" class="bi bi-list"></i>
+          </h2>
         </div>
-        <h2 id="menu-btn" class="heading">
-          <i id="menu-icon" class="bi bi-list"></i>
-        </h2>
-        <nav id="nav" class="nav">
-          <a class="nav-item" href="./bloggie.html">Home</a>
-          <a class="nav-item" href="./trending.html">Trending News</a>
-          <!-- local storage -->
-          <a class="nav-item" href="./about.html">About Us</a>
-          <a class="nav-item" href="./contact.html">Contact Us</a>
-        </nav>
-        <!-- aparece en la pantalla large -->
-        <!-- <button class="btn" type="button">Subcribe</button> -->
       </div>
+      <nav id="nav" class="nav">
+        <a class="nav-item" href="./bloggie.html">Home</a>
+        <a class="nav-item" href="./trending.html">Trending News</a>
+        <a class="nav-item" href="./movies.html">Gallery</a>
+        <a class="nav-item" href="./about.html">About Us</a>
+        <a class="nav-item" href="./contact.html">Contact Us</a>
+      </nav>
       <div class="hero">
         <div class="hero-content">
-          <h2 class="hero-title">Stay Updated With Us!</h2>
+          <h2 class="hero-title">Your new favorite movies are here!</h2>
           <p class="hero-prgf">
-            Get the lastest news and updates on the hottest movie in town.
+            Explore our collection of unique and captivating films. Get ready to
+            find your next favorites.
           </p>
         </div>
         <img
@@ -51,253 +52,25 @@
       </div>
     </header>
     <main>
-      <section>
-        <!-- FIRST SECTION MAIN -->
-        <div class="main-hero">
-          <h2 class="main-title">Discover the Latest Movie News</h2>
-          <img
-            class="img-main"
-            src="./images/trendin-firstsection.webp"
-            alt="dunna-movie"
-            width="400"
-            height="200"
-          />
-        </div>
-      </section>
-      <section>
-        <!-- CARDS CONTAINER -->
-        <div class="card-container">
-          <div class="card-header">
-            <h3>Stay Updated with Movie Trends</h3>
-            <p>Get the katest news on trending movies and releases.</p>
-          </div>
-          <div class="box-card">
-            <div class="cards">
-              <img
-                src="./images/trending-second1.webp"
-                alt="wolverine-movie"
-                width="300"
-                height="400"
-              />
-              <span class="cards-tag">News</span>
-              <span class="cards-title">Discover the Latest Movie Reviews</span>
-              <p class="cards-info">
-                Read in-depth reviews of the hottest movies in theaters
-              </p>
-              <button type="button" class="card-btn">Read More</button>
-            </div>
-            <div class="cards">
-              <img
-                src="./images/trending-section2.webp"
-                alt="wolverine-movie"
-                width="300"
-                height="400"
-              />
-              <span class="cards-tag">Reviews</span>
-              <span class="cards-title">Uncover Latest Hidden Movie Gems</span>
-              <p class="cards-info">
-                Explore lesser-known movies and find hidden treasures
-              </p>
-              <button type="button" class="card-btn">Read More</button>
-            </div>
-            <div class="cards">
-              <img
-                src="./images/trending-section3.webp"
-                alt="If-movie"
-                width="300"
-                height="400"
-              />
-              <span class="cards-tag">News</span>
-              <span class="cards-title">Stay Informed with Movie Updates</span>
-              <p class="cards-info">
-                Get the latest news and updates on upcoming movies.
-              </p>
-              <button type="button" class="card-btn">Read More</button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <!-- MIDDLE SECTION -->
-        <div class="middle-section">
-          <img
-            src="./images/trending-kids-section.webp"
-            alt="kids-cinema"
-            width="400"
-            height="300"
-          />
-          <div class="midle-info">
-            <span>Discover the Latest Movie News</span>
-            <p>
-              Stay informed about the latest movie releases,reviews, and
-              industry news.
-            </p>
-            <a href="./contact.html">
-              <button type="button" class="middle-btn">Subscribe</button>
-            </a>
-          </div>
-        </div>
-      </section>
-      <section>
-        <!-- CONTACT US -->
-        <div class="contactUs-container">
-          <div class="contactUs-header">
-            <h3 class="contactus-title">Contact Us</h3>
-            <p class="contactus-titleinfo">
-              We'd love to hear from you! Please feel free to get in touch. We
-              want to hear your thoughts and answer any questions you may have!
-            </p>
-          </div>
-          <div class="contactUs-cards">
-            <div class="contactus-info">
-              <img
-                class="card-image"
-                src="./images/email.png"
-                alt="email-icon"
-                height="50"
-                width="50"
-              />
-              <span class="card-title-contactus">Email</span>
-              <p class="card-description-contactus">
-                Don't forget to email us for the latest reviews or share your
-                thoughts.
-              </p>
-              <p class="card-info-contactus">hellobloggie.com</p>
-            </div>
-            <div class="contactus-info">
-              <img
-                class="card-image"
-                src="./images/telephone.png"
-                alt="phone-icon"
-                height="40"
-                width="40"
-              />
-              <span class="card-title-contactus">Phone</span>
-              <p class="card-description-contactus">
-                Call us anytime for assistance or to share your movie review.
-              </p>
-              <p class="card-info-contactus">(123) 456-7890</p>
-            </div>
-            <div class="contactus-info">
-              <img
-                class="card-image"
-                src="./images/location.png"
-                alt="location-icon"
-                height="50"
-                width="50"
-              />
-              <span class="card-title-contactus">Address</span>
-              <p class="card-description-contactus">
-                Visit us to discuss movies in person or drop off your review.
-              </p>
-              <p class="card-info-contactus">
-                123 Movie bloggie, Film City, CA 90210.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- FREQUENTLY QUESTIONS -->
-      <section class="fq-container">
-        <div class="fq-header">
-          <h3 class="fq-title">Frequently Asked Questions</h3>
-          <p class="fq-content">
-            Find answers to commonly asked questions about the latest movie news
-            and how to stay updated.
+      <div class="card-container">
+        <div class="card-header">
+          <h3>Discover cinematic gems that you won't want to miss</h3>
+          <p>
+            Discover masterpieces selected especially for you. Add them to your
+            favorites list now.
           </p>
-          <a href="./contact.html">
-            <button class="fq-btn" type="button">Contact Us</button>
-          </a>
         </div>
-        <div class="fq-boxcards">
-          <div class="fq-item">
-            <span class="fq-query"
-              >What is trending news?
-              <img
-                src="./images/down.png"
-                alt="down-arrow"
-                height="25"
-                width="25"
-                class="toggle-button"
+        <!-- <svg
+              class="favorite"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
               />
-            </span>
-            <p class="query-info hidden">
-              Trending news refers to the latest and most popular news stories
-              about movies, including updates on releases, casting, and
-              behind-the-scenes information.
-            </p>
-          </div>
-          <div class="fq-item">
-            <span class="fq-query"
-              >How can I stay updated?
-              <img
-                src="./images/down.png"
-                alt="down-arrow"
-                height="25"
-                width="25"
-                class="toggle-button"
-              />
-            </span>
-            <p class="query-info hidden">
-              To stay updated with the latest movies news, you can follow our
-              website, subscribe to our newsletter, or follow us on social media
-              for regular updates.
-            </p>
-          </div>
-          <div class="fq-item">
-            <span class="fq-query"
-              >Can I submit news?
-              <img
-                src="./images/down.png"
-                alt="down-arrow"
-                height="25"
-                width="25"
-                class="toggle-button"
-              />
-            </span>
-            <p class="query-info hidden">
-              Yes, we welcome news submissions from our readers. If you have any
-              movie news you'd like to share, please contact us with the
-              details.
-            </p>
-          </div>
-          <div class="fq-item">
-            <span class="fq-query"
-              >How often is news updated?
-              <img
-                src="./images/down.png"
-                alt="down-arrow"
-                height="25"
-                width="25"
-                class="toggle-button"
-              />
-            </span>
-            <p class="query-info hidden">
-              We strive to update our news section regularly to provide you the
-              latest and most relevant movie news. However, the frequency of
-              updates may vary depending on the availability of news and
-              significant developments in the industry.
-            </p>
-          </div>
-          <div class="fq-item">
-            <span class="fq-query"
-              >How can I contact you?
-              <img
-                src="./images/down.png"
-                alt="down-arrow"
-                height="25"
-                width="25"
-                class="toggle-button"
-              />
-            </span>
-            <p class="query-info hidden">
-              If you have any further questions or need assistance, please feel
-              free to contact our support team through the provided contact
-              information on our website.
-            </p>
-          </div>
-        </div>
-      </section>
+            </svg> -->
+        <div id="gallery-cards" class="box-card flex-wrap"></div>
+      </div>
     </main>
     <!-- FOOTER -->
     <footer class="footer">

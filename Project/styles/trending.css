@@ -162,6 +162,7 @@ body {
 }
 
 .cards {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -172,6 +173,32 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-top: 10px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.favorite-inactive {
+  width: 50px;
+  border-radius: 50%;
+  fill: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.favorite-active {
+  width: 50px;
+  border-radius: 50%;
+  fill: red;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .cards img {
@@ -185,6 +212,15 @@ body {
   margin: 20px;
   background-color: var(--secondary-color);
   color: var(--primary-color);
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.favorite-tag {
+  align-self: center;
+  margin: 20px;
+  font-size: 26px;
+  color: var(--fourth-color);
   padding: 5px 10px;
   border-radius: 4px;
 }

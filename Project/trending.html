@@ -15,26 +15,27 @@
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <meta name="author" content="Marcela Vargas" />
     <script src="./scripts/navigation.js" defer></script>
+    <script src="./scripts/trending.js" defer></script>
   </head>
   <body>
     <header class="header">
       <div class="header-nav">
-        <div class="logo">
-          <img src="images/logo-new-2.webp" alt="logo" />
+        <div class="header-nav">
+          <div class="logo">
+            <img src="images/logo-new-2.webp" alt="logo" />
+          </div>
+          <h2 id="menu-btn" class="heading">
+            <i id="menu-icon" class="bi bi-list"></i>
+          </h2>
         </div>
-        <h2 id="menu-btn" class="heading">
-          <i id="menu-icon" class="bi bi-list"></i>
-        </h2>
-        <nav id="nav" class="nav">
-          <a class="nav-item" href="./bloggie.html">Home</a>
-          <a class="nav-item" href="./trending.html">Trending News</a>
-          <!-- local storage -->
-          <a class="nav-item" href="./about.html">About Us</a>
-          <a class="nav-item" href="./contact.html">Contact Us</a>
-        </nav>
-        <!-- aparece en la pantalla large -->
-        <!-- <button class="btn" type="button">Subcribe</button> -->
       </div>
+      <nav id="nav" class="nav">
+        <a class="nav-item" href="./bloggie.html">Home</a>
+        <a class="nav-item" href="./trending.html">Trending News</a>
+        <a class="nav-item" href="./movies.html">Gallery</a>
+        <a class="nav-item" href="./about.html">About Us</a>
+        <a class="nav-item" href="./contact.html">Contact Us</a>
+      </nav>
       <div class="hero">
         <div class="hero-content">
           <h2 class="hero-title">Stay Updated With Us!</h2>
@@ -196,83 +197,102 @@
           </div>
         </div>
       </section>
-      <section>
-        <!-- FREQUENTLY QUESTIONS -->
-        <div class="fq-container">
-          <div class="fq-header">
-            <h3 class="fq-title">Frequently Asked Questions</h3>
-            <p class="fq-content">
-              Find answers to commonly asked questions about the latest movie
-              news and how to stay updates.
-            </p>
-            <a href="./contact.html">
-              <button class="fq-btn" type="button">Contact Us</button>
-            </a>
-          </div>
-          <div class="fq-boxcards">
+      <!-- FREQUENTLY QUESTIONS -->
+      <section class="fq-container">
+        <div class="fq-header">
+          <h3 class="fq-title">Frequently Asked Questions</h3>
+          <p class="fq-content">
+            Find answers to commonly asked questions about the latest movie news
+            and how to stay updated.
+          </p>
+          <a href="./contact.html">
+            <button class="fq-btn" type="button">Contact Us</button>
+          </a>
+        </div>
+        <div class="fq-boxcards">
+          <div class="fq-item">
             <span class="fq-query"
-              >What us trending news?
+              >What is trending news?
               <img
                 src="./images/down.png"
                 alt="down-arrow"
                 height="25"
                 width="25"
-            /></span>
-            <p class="query-info">
+                class="toggle-button"
+              />
+            </span>
+            <p class="query-info hidden">
               Trending news refers to the latest and most popular news stories
               about movies, including updates on releases, casting, and
               behind-the-scenes information.
             </p>
-
+          </div>
+          <div class="fq-item">
             <span class="fq-query"
-              >How can I stay updates?<img
+              >How can I stay updated?
+              <img
                 src="./images/down.png"
                 alt="down-arrow"
                 height="25"
                 width="25"
-            /></span>
-            <p class="query-info">
+                class="toggle-button"
+              />
+            </span>
+            <p class="query-info hidden">
               To stay updated with the latest movies news, you can follow our
               website, subscribe to our newsletter, or follow us on social media
               for regular updates.
             </p>
-
+          </div>
+          <div class="fq-item">
             <span class="fq-query"
-              >Can I submit news?<img
+              >Can I submit news?
+              <img
                 src="./images/down.png"
                 alt="down-arrow"
                 height="25"
                 width="25"
-            /></span>
-            <p class="query-info">
+                class="toggle-button"
+              />
+            </span>
+            <p class="query-info hidden">
               Yes, we welcome news submissions from our readers. If you have any
-              movie news you'd like to shre, please contact us with the details.
+              movie news you'd like to share, please contact us with the
+              details.
             </p>
-
+          </div>
+          <div class="fq-item">
             <span class="fq-query"
-              >How often is news updates?<img
+              >How often is news updated?
+              <img
                 src="./images/down.png"
                 alt="down-arrow"
                 height="25"
                 width="25"
-            /></span>
-            <p class="query-info">
+                class="toggle-button"
+              />
+            </span>
+            <p class="query-info hidden">
               We strive to update our news section regularly to provide you the
               latest and most relevant movie news. However, the frequency of
               updates may vary depending on the availability of news and
               significant developments in the industry.
             </p>
-
+          </div>
+          <div class="fq-item">
             <span class="fq-query"
-              >How can I contact you?<img
+              >How can I contact you?
+              <img
                 src="./images/down.png"
                 alt="down-arrow"
                 height="25"
                 width="25"
-            /></span>
-            <p class="query-info">
-              If you have any futher questions or need assistance, please feel
-              free to contanct our support team through the provided contact
+                class="toggle-button"
+              />
+            </span>
+            <p class="query-info hidden">
+              If you have any further questions or need assistance, please feel
+              free to contact our support team through the provided contact
               information on our website.
             </p>
           </div>

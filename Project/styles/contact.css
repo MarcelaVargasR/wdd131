@@ -157,6 +157,10 @@ body {
   color: var(--fourth-color);
 }
 
+.form-info h2 {
+  margin-top: 20px;
+}
+
 .form-info p {
   margin-top: 10px;
 }
@@ -439,7 +443,7 @@ a:hover {
 
   .form {
     border: 1px solid black;
-    padding-block: 70px;
+    /* padding-block: 70px; */
   }
 
   /* CONTACT US */
