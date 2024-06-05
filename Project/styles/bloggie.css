@@ -6,7 +6,7 @@
 
 :root {
   --primary-color: #0a122a;
-  --secondary-color: #8db600;
+  --secondary-color: #568f00;
   --accent-color: #bebfc5;
   --fourth-color: #fbfaf8;
 }
@@ -124,6 +124,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
+  margin-inline: 40%;
 }
 
 /* MAIN */
